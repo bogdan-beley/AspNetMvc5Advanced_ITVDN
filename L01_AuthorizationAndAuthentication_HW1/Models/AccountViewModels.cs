@@ -79,6 +79,13 @@ namespace L01_AuthorizationAndAuthentication_HW1.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        [Display(Name = "Race")]
+        public string Race { get; set; }
+
+        [Display(Name = "Species")]
+        public string Species { get; set; }
     }
 
     public class ResetPasswordViewModel

@@ -16,6 +16,9 @@ namespace L01_AuthorizationAndAuthentication_HW1.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public string Race { get; set; }
+        public string Species { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
