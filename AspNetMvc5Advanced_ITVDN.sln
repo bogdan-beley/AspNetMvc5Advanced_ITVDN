@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L01_AuthorizationAndAuthent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L02_BundlingAndMinification_HW1", "L02_BundlingAndMinification_HW1\L02_BundlingAndMinification_HW1.csproj", "{9C371563-A9A1-426C-86D6-72280E9F6A1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L03_Bootstrap_HW1", "L03_Bootstrap_HW1\L03_Bootstrap_HW1.csproj", "{C48F9483-8A12-4B2C-A4CC-5531F5C616D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9C371563-A9A1-426C-86D6-72280E9F6A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C371563-A9A1-426C-86D6-72280E9F6A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C371563-A9A1-426C-86D6-72280E9F6A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48F9483-8A12-4B2C-A4CC-5531F5C616D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48F9483-8A12-4B2C-A4CC-5531F5C616D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48F9483-8A12-4B2C-A4CC-5531F5C616D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48F9483-8A12-4B2C-A4CC-5531F5C616D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
