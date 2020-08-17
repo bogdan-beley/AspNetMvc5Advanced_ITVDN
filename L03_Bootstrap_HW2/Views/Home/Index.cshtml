@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <thead class="thead-light">
+            <tr>
+                @for (int i = 1; i <= 8; i++)
+                {
+                    <th scope="col">
+                        Col @i
+                    </th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @for (int j = 1; j <= 10; j++)
+            {
+                <tr>
+                    @for (int i = 1; i <= 8; i++)
+                    {
+                        <td scope="row">
+                            Data @j-@i
+                        </td>
+                    }
+                </tr>
+            }
+            </tbody>
+    </table>
+</div>
