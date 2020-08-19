@@ -1,0 +1,12 @@
+﻿@model IEnumerable<L05_Tests_HW2b.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var product in Model)
+{
+    <p>@product.Id | @product.Name | @product.Description | @product.IsAvaliable</p>
+}
