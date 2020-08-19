@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L05_Tests_HW2b", "L05_Tests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L05_Tests_HW2b.Tests", "L05_Tests_HW2b.Tests\L05_Tests_HW2b.Tests.csproj", "{7704AB6C-F29C-4901-8127-81ACF7E29A97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L06_Lifecycle_HW1", "L06_Lifecycle_HW1\L06_Lifecycle_HW1.csproj", "{11DBDF79-E435-4296-9BEB-5A5BBF0EEE8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{7704AB6C-F29C-4901-8127-81ACF7E29A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7704AB6C-F29C-4901-8127-81ACF7E29A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7704AB6C-F29C-4901-8127-81ACF7E29A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11DBDF79-E435-4296-9BEB-5A5BBF0EEE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DBDF79-E435-4296-9BEB-5A5BBF0EEE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DBDF79-E435-4296-9BEB-5A5BBF0EEE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DBDF79-E435-4296-9BEB-5A5BBF0EEE8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
